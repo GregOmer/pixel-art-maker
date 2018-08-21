@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 console.log("readddds")
+
 let curColor = 'red'
 
 document.getElementById("wrapper").addEventListener("click", function(event) {
@@ -16,9 +17,4 @@ document.getElementsByClassName("redPaint")[0].addEventListener("click", functio
 console.log(event.target.classList[0].background)
 
 });
-
-
-
-
-
 });
