@@ -3,28 +3,33 @@ console.log("readddds")
 
 let curColor = 'purple'
 
+let pixels = document.getElementById('pixel')
 
-document.getElementById('wrapper').addEventListener('click', function(event){
+let canvColo = document.getElementById("wrapper").style.background;
+
+console.log()
+
+document.getElementById("wrapper").addEventListener("click", function(event){
   event.target.style.background = curColor
 })
 
+// clear function---NONFUNCTIONING!!
+// document.getElementById("clearButton").addEventListener('click', function(event){
+//   canvColo = white
+// })
+
+
 document.getElementById("colors").addEventListener("click", function(event){
   curColor = event.target.style.background
-  document.getElementById('body').style.background = curColor
+  document.getElementById("body").style.background = curColor
 
 });
-let wrapper = document.getElementById('wrapper');
 
 for(let i = 0; i < 512; i++){
-  let loopDiv = document.createElement('div');
-  loopDiv.className = 'pixel';
+  let loopDiv = document.createElement("div");
+  loopDiv.Id = "pixel";
   wrapper.appendChild(loopDiv);
 }
-
-
-
-
-
 
 
 });
