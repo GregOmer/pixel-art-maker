@@ -1,5 +1,5 @@
 #body{
-  background-color: skyBlue;
+  background-color: Navy;
 }
 #page{
   width: 100vw;
@@ -70,7 +70,10 @@
   font-size: 16px;
 }
 
-h1{
+h1 {
   color: white;
   -webkit-text-stroke: 1px black;
+}
+section {
+  background: white;
 }
