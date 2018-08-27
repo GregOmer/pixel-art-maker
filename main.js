@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 console.log("readddds")
 
-let curColor = 'Navy'
+let curColor = 'Blue'
 
 
 for(let i = 0; i < 900; i++){
